@@ -12,3 +12,78 @@ img,
 video {
   display: block;
 }
+
+body {
+  width: 1728px;
+  height: 1117px;
+  padding: 50px 1306px 901px 0px;
+}
+
+.Chart {
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding: 50px 1306px 901px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.Switzerland,
+.Europe,
+.USA {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Switzerland,
+.Europe,
+.USA {
+  color: #000;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Bar {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.Mobile {
+  width: 195px;
+  height: 30px;
+  background: #ffcc2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Desktop {
+  width: 105px;
+  height: 30px;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Mobile,
+.Desktop p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
